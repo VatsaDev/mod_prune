@@ -1,8 +1,8 @@
 #!/bin/bash
 
-BASE="/home/ubuntu/distil/checkpoints/qwen_1b_8b_large_d/v48-20260215-063905/checkpoint-1000"
-ADAPTER_1="/home/ubuntu/distil/checkpoints/qwen_1b_mlang/v3-20260216-183608/checkpoint-5250"
-FINAL="/home/ubuntu/distil/checkpoints/qwen_1b_full"
+BASE="checkpoints/base"
+ADAPTER_1="checkpoints/adapter"
+FINAL="checkpoints/final"
 
 echo "Merging Adapter into Base..."
 swift export \
